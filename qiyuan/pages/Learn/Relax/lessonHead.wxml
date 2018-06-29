@@ -1,0 +1,7 @@
+<!--pages/Learn/Relax/lessonHead.wxml-->
+<!-- <text>pages/Learn/Relax/lessonHead.wxml</text> -->
+
+<view class='container'>
+<label class='nametext'>{{name}}</label>
+<text class='all' hidden="{{allbuttonHiden}}">查看全部</text>
+</view>

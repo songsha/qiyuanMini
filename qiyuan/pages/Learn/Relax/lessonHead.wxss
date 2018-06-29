@@ -1,0 +1,32 @@
+/* pages/Learn/Relax/lessonHead.wxss */
+
+.container{
+border-bottom: whitesmoke solid 1px;
+background-color:white;
+ height: 38px;
+
+}
+
+.all{
+  color: #3ECCC9;
+  float: right;
+  width: 29%;
+  margin-right: 10px;
+  height: 38px;
+/* background-color: red; */
+text-align: center;
+  font-size: 15px;
+  line-height: 100rpx;
+  background-color: white;
+
+}
+.nametext{
+  float: left;
+  width: 60%;
+  margin-left: 10px;
+  height: 38px;
+  font-size: 15px;
+  line-height: 100rpx;
+  background-color: white;
+
+}

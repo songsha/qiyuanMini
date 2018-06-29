@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "lessonitem": "/pages/Live/LiveItem-Components"
+  }
+}

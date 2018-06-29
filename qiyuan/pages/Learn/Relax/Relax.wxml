@@ -1,0 +1,18 @@
+<!--pages/Learn//Relax/Relax.wxml-->
+<head/>
+<view class='spacelabel'></view>
+<lessonhead class="myhead" name="我的课程"/>
+<view class='myclass'>
+<lesson class = "lesson" lessonName = "驼背矫正课程" lessonimage="/pages/Source/learnimage/运动1.jpg" lessonPrice="¥25"></lesson>
+<lesson class = "lesson" lessonName = "驼背矫正课程" lessonimage="/pages/Source/learnimage/运动1.jpg" lessonPrice="¥25"></lesson>
+ <lesson class = "lesson" lessonName = "驼背矫正课程" lessonimage="/pages/Source/learnimage/运动1.jpg" lessonPrice="¥25"></lesson> 
+</view>
+
+<view class='spacelabel'></view>
+<lessonhead class="myhead" name="课程推荐"/>
+<view class='myclass' >
+<lesson class = "lesson" lessonName = "{{class[index]}}" lessonimage="/pages/Source/learnimage/运动1.jpg" lessonPrice="¥25" wx:for="{{[1,2,3]}}" bindtap="lessontap" id="{{index}}"></lesson>
+</view>
+
+<view class='spacelabel'></view>
+<lessonhead class="myhead" name="户外拓展"/>

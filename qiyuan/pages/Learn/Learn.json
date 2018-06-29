@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "Relax": "Relax/Relax",
+    "Custom": "Custom/Custom"
+  }
+}

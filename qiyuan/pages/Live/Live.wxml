@@ -1,0 +1,11 @@
+<!--pages/Live/Live.wxml-->
+<swiper autoplay="true" circular="true" indicator-dots="true"	 class='swi'>
+<view wx:for="{{[1,2,3]}}">
+<swiper-item  class="swiper-item {{item}}">
+<image src="{{bannerImage[item-1]}}"></image>
+</swiper-item>
+</view>
+
+</swiper>
+
+<lessonitem wx:for="{{[0,1,2,3]}}" class="lessitem" name="{{lessonName[index]}}" imagepath="{{lessonImage[index]}}" bindtap="lessontap" id="{{index}}"/>

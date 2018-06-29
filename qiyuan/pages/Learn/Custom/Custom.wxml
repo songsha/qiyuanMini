@@ -1,0 +1,12 @@
+<!--pages/Learn/Custom/Custom.wxml-->
+<view class='spacelabel'></view>
+<lessonhead class="myhead" name="小课班"/>
+<view class='myclass' >
+<lesson class = "lesson" lessonName = "驼背矫正课程" lessonimage="/pages/Source/learnimage/定制学2.jpg" lessonPrice="¥25" wx:for="{{[1,2,3]}}" bindtap="lessontap"></lesson>
+</view>
+
+<view class='spacelabel'></view>
+<lessonhead class="myhead" name="一对一课程"/>
+<view class='myclass' >
+<lesson class = "lesson" lessonName = "驼背矫正课程" lessonimage="/pages/Source/learnimage/定制学2.jpg" lessonPrice="¥25" wx:for="{{[1,2,3]}}" bindtap="lessontap"></lesson>
+</view>

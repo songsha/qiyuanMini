@@ -1,0 +1,11 @@
+<view class='container'>
+
+  <view class='tab-wrapper'>
+    <view id='tableft' class='tab-left {{currentTab === 0 ? "tab-active":""}}' bindtap='switchTab'>轻松玩</view>
+    <view id='tabright' class='tab-right {{currentTab === 1 ? "tab-active" : ""}}' bindtap='switchTab'>定制学</view>
+  </view>
+
+  <view class='content-wrapper' wx:if='{{currentTab === 0}}'><Relax/></view>
+  <view class='content-wrapper' wx:if='{{currentTab === 1}}'><Custom/></view>
+
+</view>

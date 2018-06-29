@@ -1,0 +1,37 @@
+{
+  "pages":[
+    "pages/Learn/Learn",        
+    "pages/Live/Live",
+    "pages/My/My",
+    "pages/Learn/Relax/Relax",
+    "pages/Learn/Custom/Custom"
+    ],
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/Learn/Learn",
+      "text": "学习",
+      "iconPath": "pages/Source/tabbar/学习.png",
+      "selectedIconPath": "pages/Source/tabbar/学习2.png"
+    },
+    {
+      "pagePath": "pages/Live/Live",
+      "text": "元气吧",
+      "iconPath": "pages/Source/tabbar/测一测1.png",
+      "selectedIconPath": "pages/Source/tabbar/测一测2.png"
+    },
+    {
+      "pagePath": "pages/My/My",
+      "text": "个人中心",
+      "iconPath": "pages/Source/tabbar/我的1.png",
+      "selectedIconPath": "pages/Source/tabbar/我的2.png"
+    }
+    ]
+  }
+  ,
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  }
+}

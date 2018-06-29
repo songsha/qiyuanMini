@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "myhead": "/pages/My/myhead-components"
+  }
+}

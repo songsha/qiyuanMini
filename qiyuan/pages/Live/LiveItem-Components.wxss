@@ -1,0 +1,23 @@
+/* pages/Live/LiveItem-Components.wxss */
+.image{
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border-color: black;
+  height: 120px;
+  width: 94%;
+
+}
+.name{
+  height: 30px;
+  line-height: 100rpx;
+  margin-left: 10px;
+
+}
+
+.spaceline{
+  margin-top: 5px;
+  height: 1px;
+  background-color: gainsboro;
+}

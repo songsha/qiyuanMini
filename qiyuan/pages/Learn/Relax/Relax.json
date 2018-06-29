@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "head":"Head",
+    "lesson":"lessonView",
+    "lessonhead":"lessonHead"
+  }
+}

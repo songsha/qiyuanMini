@@ -1,0 +1,7 @@
+/* pages/Live/Live.wxss */
+.swi{
+  height: 180px;
+}
+.lessitem{
+  width: 100%
+}

@@ -1,0 +1,19 @@
+/* pages/Learn/Custom/Custom.wxss */
+.spacelabel{
+  height: 5px;
+  background-color: whitesmoke;
+}
+.lesson{
+  flex-flow: 1;
+  width: 32%;
+ background-color: white;
+}
+.myclass{
+  display: flex;
+  flex-direction: row;
+  height: 120px;
+  width: 100%;
+  justify-content:space-evenly;
+  /* margin-top: 5px; */
+  /* background-color: black; */
+}

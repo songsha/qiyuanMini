@@ -1,0 +1,9 @@
+<!--pages/Learn/Relax/lessonView.wxml-->
+<view class='container'>
+<view class='lesson'>
+<image class='lessonimage' src="{{lessonimage}}" mode='aspectFill'>
+<label class='lessonprice'>{{lessonPrice}}</label>
+</image>
+</view>
+<label class='lessonname'>{{lessonName}}</label>
+</view>

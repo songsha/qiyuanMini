@@ -1,0 +1,12 @@
+<!--pages/Learn/Custom/Head.wxml-->
+<view class='container'>
+
+<image class='headimage' src='/pages/Source/learnimage/smile.jpg'></image>
+<view class='labelview'>
+<label class='label1'>运动力</label>
+<label class='label2'>100分</label>
+<label class='label3'>已累计打卡28天</label>
+</view>
+<button class='cece' size='mini'>测一测</button>
+
+</view>

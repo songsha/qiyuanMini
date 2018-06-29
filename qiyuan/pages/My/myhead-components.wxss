@@ -1,0 +1,14 @@
+/* pages/My/myhead-components.wxss */
+
+.container{
+  background-color: #3ECCC9;
+  height: 180px;
+}
+.myhead{
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+
+}

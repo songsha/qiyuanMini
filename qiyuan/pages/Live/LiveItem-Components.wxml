@@ -1,0 +1,4 @@
+<!--pages/Live/LiveItem-Components.wxml-->
+<text class='name'>{{name}}</text>
+<image class='image' src="{{imagepath}}" model="aspectFill"></image>
+<view class='spaceline'></view>

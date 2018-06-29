@@ -1,0 +1,41 @@
+/* pages/Learn/Relax/lessonView.wxss */
+.container{
+  display: flex;
+  flex-direction: column;
+  height: 120px;
+ background-color: white;
+
+  /* background: rebeccapurple; */
+}
+.lesson{
+  flex-flow: 1;
+  /* background-color: red; */
+  height: 70%;
+  margin-top: 5px;
+  
+}
+.lessonimage{
+  flex-flow: 1;
+  width:100%;
+  height: 100%;
+   background-color: white;
+
+}
+ .lessonname{   
+    font-size: 13px;
+    color: gray;
+    width:100%;
+    height: 30%;
+    text-align: center;
+} 
+ .lessonprice{
+  position: relative;
+  left: 8px; 
+  right: 0px; 
+  bottom: 25px;
+  width: 100%;
+  height: 30px;
+  color: orangered;
+  font-size: 13px;
+} 
+  

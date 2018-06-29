@@ -1,0 +1,5 @@
+
+<!--pages/My/myhead-components.wxml-->
+<view class='container'>
+<image class='myhead' src='/pages/Source/myimage/小朋友.jpg'></image>
+</view>

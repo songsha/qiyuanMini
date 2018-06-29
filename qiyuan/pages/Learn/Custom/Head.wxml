@@ -1,0 +1,2 @@
+<!--pages/Learn/Custom/Head.wxml-->
+<image class='headimage' src='/pages/Source/learnimage/smile.png'></image>
